@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Durative-FF-Depend SYSTEM "Depend.dtd">
+<Durative-FF-Depend>
+<Operator>
+<Name>
+(THROWBOMB L2C2 BOMB MINOTAUR PLAYER L1C3)</Name>
+
+</Operator>
+
+<Operator>
+<Name>
+(MOVETO PLAYER L1C3 L2C3 MINOTAUR)</Name>
+
+<Depend>
+ 
+<On_Operator>
+ 
+<Name>
+(THROWBOMB L2C2 BOMB MINOTAUR PLAYER L1C3)
+</Name>
+
+</On_Operator>
+ 
+</Depend>
+ 
+</Operator>
+
+<Operator>
+<Name>
+(MOVETO PLAYER L2C3 L2C2 MINOTAUR)</Name>
+
+<Depend>
+ 
+<On_Operator>
+ 
+<Name>
+(THROWBOMB L2C2 BOMB MINOTAUR PLAYER L1C3)
+</Name>
+
+</On_Operator>
+ 
+</Depend>
+ 
+</Operator>
+
+<Operator>
+<Name>
+(MOVETO PLAYER L2C2 L2C1 MINOTAUR)</Name>
+
+<Depend>
+ 
+<On_Operator>
+ 
+<Name>
+(THROWBOMB L2C2 BOMB MINOTAUR PLAYER L1C3)
+</Name>
+
+</On_Operator>
+ 
+</Depend>
+ 
+</Operator>
+
+<Operator>
+<Name>
+(MOVETO PLAYER L2C1 L3C1 MINOTAUR)</Name>
+
+</Operator>
+
+<Operator>
+<Name>
+(MOVETO PLAYER L3C1 EXIT MINOTAUR)</Name>
+
+</Operator>
+
+
+</Durative-FF-Depend>
